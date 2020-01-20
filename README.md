@@ -23,6 +23,10 @@ rails server
 * You can insert link with `<%= link_to '<link_text>', :controller <controller_name>, :url: <destination> %>`
 * `render` is done within the same request as the form submission, whereas `redirect_to` will tell the browser to issue another request.
 * `pluralize` is a rails helper that takes a number and a string as its arguments. If the number is greater than one, the string will be automatically pluralized.
+* Model relation declaration is a little bit messy.
+* rendering partial collections is pretty cool. It's definitely better than using iframe.
+* I would advise against using the out-of-box authentication. It is too basic for modern website. Especially, it is http.
+* Only support UTF-8.
 
 ## Reference
 https://guides.rubyonrails.org/getting_started.html
